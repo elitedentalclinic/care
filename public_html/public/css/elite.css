@@ -1,0 +1,41 @@
+html,body {font-family: "Lato", sans-serif}
+div.header{
+    z-index:4;
+}
+nav.sidebar{
+    z-index:3;
+    width:250px;
+    margin-top:56px;
+}
+div.edc-main{
+    margin-left:250px ;
+
+}
+p.edc-main-head{
+    font-size: 96px;
+    text-align : center ;
+    color: #B0BEC5;
+    font-weight: 100;
+    margin-top:150px ;
+}
+button.edc-src-btn{
+    margin:18px 10px 0px;
+}
+li { cursor: pointer; cursor: hand; }
+
+div.edc-float-button{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+}
+div.edc-bottom{
+    position:fixed;
+    bottom:10px;
+}
+div.edc-no-disply{display : none ;}
+div.edc-s-weight{
+     font-weight: 100;
+}
+span.edc-margin{
+    margin : 2px;
+}

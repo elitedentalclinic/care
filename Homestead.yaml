@@ -1,0 +1,36 @@
+---
+ip: "192.168.10.10"
+memory: 2048
+cpus: 1
+hostname: elite
+name: elite
+provider: virtualbox
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: "F:/Repository/home/elitedentalcare/care"
+      to: "/home/vagrant/elite"
+
+sites:
+    - map: homestead.dev
+      to: "/home/vagrant/elite/public_html/public"
+
+databases:
+    - elitedb
+
+# blackfire:
+#     - id: foo
+#       token: bar
+#       client-id: foo
+#       client-token: bar
+
+# ports:
+#     - send: 50000
+#       to: 5000
+#     - send: 7777
+#       to: 777
+#       protocol: udp

@@ -1,0 +1,14 @@
+html,body {font-family: "Lato", sans-serif ;}
+div.edc-login {
+    height: 100vh;
+}
+p.edc-main-content{
+    font-size: 96px;
+    text-align : center ;
+    color: #B0BEC5;
+    font-weight: 100;
+    margin-top:150px ;
+}
+input.edc-log-btn{
+    margin: 10px 0px ;
+}
