@@ -30,7 +30,7 @@
       <!-- Overlay effect when opening sidenav on small screens -->
       <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"></div>
       <div class="w3-main edc-main">
-          <div class="w3-row w3-padding-hor-64">
+          <div class="w3-row w3-padding-64">
                  @yield('content')
            </div>
        </div>
